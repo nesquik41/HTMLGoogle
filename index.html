@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <style>
+        #merkez {
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+        height: 50vh; width: 80vw; 
+      }
+    </style>
+</head>
+
+
+<body>
+    <center>
+        <section id="merkez">  <!-- Logoyu yerlestirdik. -->
+            <img src="https://www.google.com/logos/1998/googlebeta.jpg" alt="Google" />
+            <form method="get" action="http://www.google.com/custom"> 
+                <input type="text" name="q" size="45" maxlength="30" value="">
+            <input type="submit" name="Search" value="Search" title="Search"></input>
+            </form>
+          </section>
+        <table>
+            <tbody>
+                <tr>
+                    <!-- arama cubuguna renk verdik ve kolonları birlestirdik. -->
+                    <td bgcolor="#dbdbdb" colspan="4">  
+                        <center>
+                            Search the web using Google! <br>
+                            <input type="text" size="50px" placeholder="search"><br>
+                            <button>Google Search</button>
+                            <!-- <form action="https://www.google.com/doodles"></form> komutunu denedim ancak buton asagıya kayıyor onu beceremedigim icin silmek zorunda kaldım. -->
+                            <button id="sans" >I'm feelling lucky!</button>
+                        </center>
+                    </td>
+                </tr>
+                <tr>
+                    <!-- Alttaki uc bolmeye renkler ve linkler eklendi. -->
+                    <td  width ="15%"  bgcolor="turquoise">
+                        <center>
+                            Special Searches <br>
+                            <a href="https://www.stanford.edu/search/">Stanford Searches</a> <br>
+                            <a href="https://www.linux.org/">Linux Searches</a> <br>
+                        </center>
+                    </td>
+                    <td  width ="15%" bgcolor="turquoise">
+                        <center>
+                            <a href="https://support.google.com/">Help!</a><br>
+                            <a href="https://about.google/">About Google!</a><br>
+                            <a href="#">Company Info</a><br>
+                            <a href="https://www.google.com/doodles">Google! Logos</a><br>
+                        </center>
+                    </td>
+                    <td width ="15%" bgcolor = "turquoise">
+                        <center>
+                            Get Google! <br> update monthly: <br>
+                            <input type="text" placeholder="your e-mail"> <br>
+                            <button>Subscribe</button> <a href="#">Archive</a>
+                        </center>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+        <!-- footer kismi olusturulup son yazi eklendi. -->
+        <footer>
+           <br>Copyright ©1998 Google Inc.
+        </footer>
+    </center>
+</body>
+</html>
